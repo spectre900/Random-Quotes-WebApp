@@ -4,16 +4,20 @@
         <script src='script.js'></script>
 		<title>Random Quotes</title>
 	</head>
-	<body>
+	<body onload='getNewQuote()'>
         <div id='box'>
             <div id='quote'>
-                A Long Quote Text
+                <div id='quote-text'>
+                    <!-- A long Quote Text --> 
+                 </div>
+                <div id='quote-author'>
+                    <!-- - Author --> 
+                </div>
             </div>
-            <div id='author'>
-                - Author
-            </div>
-            <button id='new-quote' onclick='getNewQuote()'>
-                New Quote
+            <div id='new-quote'>
+                <button onclick='getNewQuote()'>
+                    New Quote
+                </button>
             </div>
         </div>
 	</body>
