@@ -4,20 +4,22 @@
         <script src='script.js'></script>
 		<title>Random Quotes</title>
 	</head>
-	<body onload='getNewQuote()'>
-        <div id='box'>
-            <div id='quote'>
-                <div id='quote-text'>
-                    <!-- A long Quote Text --> 
-                 </div>
-                <div id='quote-author'>
-                    <!-- - Author --> 
+    <body onload='getNewQuote()'>
+        <div class='center'>
+            <div id='box' class='box'>
+                <div id='quote' class='quote'>
+                    <div id='quote-text' class='quote-text'>
+                        <!-- A long Quote Text --> 
+                    </div>
+                    <div id='quote-author' class='quote-author'>
+                        <!-- - Author --> 
+                    </div>
                 </div>
-            </div>
-            <div id='new-quote'>
-                <button onclick='getNewQuote()'>
-                    New Quote
-                </button>
+                <div id='new-quote' class='new-quote'>
+                    <button id='new-quote-button' class='new-quote-button' onclick='getNewQuote()'>
+                        New Quote
+                    </button>
+                </div>
             </div>
         </div>
 	</body>
