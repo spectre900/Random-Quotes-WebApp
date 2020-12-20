@@ -2,6 +2,6 @@
 
 A completely Responsive WebApp displaying random quotes
 
-## Screenshots
+## Screenshot
 
-<img src='/screenshot.png' height=500 width=800>
+<img src='/screenshot.png' height=400 width=700>
